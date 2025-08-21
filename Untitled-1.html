@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Certificate of Completion</title>
+  <!-- Link to Google Fonts for Montserrat -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      background: #f9f6f2;
+      height: 100%;
+    }
+    .certificate-container {
+      border: 10px solid #1a237e;
+      padding: 40px;
+      width: 800px;
+      height: 600px;
+      margin: 40px auto;
+      background: #fff;
+      box-shadow: 0 0 20px #ddd;
+      font-family: 'Montserrat', Arial, sans-serif;
+      text-align: center;
+      position: relative;
+    }
+    .certificate-header {
+      font-size: 36px;
+      font-weight: bold;
+      color: #1a237e;
+      margin-bottom: 10px;
+      letter-spacing: 2px;
+    }
+    .certificate-subtitle {
+      font-size: 20px;
+      color: #222;
+      margin-bottom: 40px;
+    }
+    .recipient {
+      font-size: 32px;
+      font-weight: bold;
+      border-bottom: 2px solid #1a237e;
+      margin: 24px auto 16px auto;
+      width: 400px;
+      padding-bottom: 8px;
+    }
+    .description {
+      font-size: 18px;
+      margin: 24px 0;
+    }
+    .logo {
+      position: absolute;
+      top: 30px;
+      left: 50px;
+      width: 80px;
+      height: 80px;
+      /* Uncomment below and add your logo */
+      /* background-image: url('your-logo.png');
+         background-size: contain;
+         background-repeat: no-repeat; */
+    }
+    .footer {
+      position: absolute;
+      bottom: 40px;
+      left: 40px;
+      right: 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      font-size: 16px;
+      color: #555;
+    }
+    .signature {
+      border-top: 1px solid #333;
+      width: 200px;
+      margin-top: 32px;
+      display: inline-block;
+      font-family: 'Montserrat', cursive, sans-serif;
+      font-size: 18px;
+      color: #1a237e;
+    }
+  </style>
+</head>
+<body>
+  <div class="certificate-container">
+    <div class="logo"></div>
+    <div class="certificate-header">Certificate of Completion</div>
+    <div class="certificate-subtitle">This is awarded to</div>
+    <div class="recipient">[Recipient Name]</div>
+    <div class="description">
+      For successfully completing the course:<br>
+      <b>[Course Name]</b><br>
+      On [Date]
+    </div>
+    <div class="footer">
+      <div>
+        <div class="signature">[Signature Name]</div>
+        <div>Authorized Signature</div>
+      </div>
+      <div>
+        <div class="signature">[Issuer Name]</div>
+        <div>Organization</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
